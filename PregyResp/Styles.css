@@ -1,0 +1,279 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+body{
+    background-color: black; 
+    background-image: linear-gradient( darkblue,black); 
+    /* background-image: radial-gradient(circle, darkblue, gray, black); */
+    background-repeat:no-repeat;
+    color: white;
+    font-family: verdana;
+}
+
+h1 {
+  background: -webkit-linear-gradient(yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btnIcon {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
+.btnIconRight {
+  height: 50px;
+  width: 50px;
+  margin-left:auto; margin-right:20px;
+/* 
+  margin-left: 400px;
+  margin-right: 40px; */
+ 
+}
+.btnContainer{
+  display: flex;
+  width: 100%;
+  /* width: 75%;
+  margin-left: 25%; */
+  position: absolute;
+  
+}
+.estJuego{
+  
+  /* margin-right: 50%; */
+  /* left: 50%;
+  transform: translateX(-50%); */
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    max-height: 200px;/*max-width: 800px*/
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .containerMenu {
+    position: relative;
+    text-align: center;
+    max-width: 600px;/*max-width: 800px*/
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .box{
+      width:100%;
+  }
+  .boxResp{
+    width:50%;
+}
+  
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size:3vw;
+    transform: translate(-50%, -50%);
+  }
+
+  .centeredRespL {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size:2vw;
+    transform: translate(-50%, -50%);
+  }
+  .centeredRespR {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    font-size:2vw;
+    transform: translate(-50%, -50%);
+  }
+  @media screen and (min-width: 800px) {
+
+
+    .btnIcon {
+      height: 80px;
+      width: 80px;
+    }
+    .btnIconRight {
+      height: 80px;
+      width: 80px;
+     
+    }
+
+    .container {
+
+      max-width: 1000px;/*max-width: 800px*/
+
+    }
+
+    .centered {
+      padding-bottom: 20px;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      font-size:24px;
+      transform: translate(-50%, -50%);
+    }
+  
+    .centeredRespL {
+      position: absolute;
+      top: 30%;
+      left: 25%;
+      font-size:18px;
+      transform: translate(-50%, -50%);
+    }
+    .centeredRespR {
+      position: absolute;
+      top: 30%;
+      left: 75%;
+      font-size:18px;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+
+  .colorWord{
+      color: orange;
+  }
+
+.resp{
+    cursor: pointer;
+}
+.resp :hover { 
+    /*background-color: yellow;*/
+}
+.estado{
+    text-align: center;
+}
+.inSameRow{
+  display: flex;
+  /* flex-direction: row; */
+  text-align: center;
+  flex-wrap: wrap;
+}
+input{
+  margin-top: 15px;
+  margin-right: 8px;
+}
+.hidden{
+  display:none;
+}
+.boxPuntajes{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index:100;
+  width: 98%;/*450px;*/
+  height: 80%;/*350px;*/
+  background: darkblue;
+  opacity:0.97;
+  color:white;
+}
+.colorBlocks{
+  color:white;
+  font-size: 1.75em;
+  background-color: #093b976b;
+}
+.colorTabla{
+  color:#e09525;
+  font-size: 1.1em;
+  background-color: #093b976b;
+}
+.selectedTabla{
+  background-color: #ffc67081;
+}
+.safeTabla{
+  color:white;
+}
+
+@-o-keyframes fadeIt {
+  0%   { background-color: #ffc67081; }
+  50%  { background-color: #f0f0f05d;}
+  100% { background-color: #ffc67081; }
+}
+@keyframes fadeIt {
+  0%   { background-color: #ffc67081; }
+  50%  { background-color: #f0f0f05d; }
+  100% { background-color: #ffc67081; }
+}
+
+.backgroundAnimated{    
+    background-image:none !important; 
+         -o-animation: fadeIt 1s ease-in-out; 
+            animation: fadeIt 5s ease-in-out; 
+}
+
+.btnView{
+  display:block;
+  width: 45%;
+  height: 40px;
+  left: 0%;
+  font-size:24px;
+  transform: translate(60%, 50%);
+  margin-top: 15px;
+
+}
+.txPregDisplay{
+  display:block;
+  left: 0%;
+  font-size:17px;
+  transform: translate(5%, 50%);
+  margin-top: 11px;
+}
+
+/*_____Loader___use: <div class="lds-dual-ring"></div> ___*/
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+
+  position: absolute;
+  top: 20%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*_____/Loader______*/

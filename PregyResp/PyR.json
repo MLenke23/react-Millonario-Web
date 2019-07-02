@@ -1,0 +1,125 @@
+{
+    "DataPyR": [
+      {
+        "Dificultad": 0,
+        "Correcta": 2,
+        "Respuestas": {
+          "D": "La conciencia",
+          "C": "La nariz",
+          "B": "La cabeza",
+          "A": "Las piernas"
+        },
+        "Pregunta": "¿Que le crece a pinocho cada vez que miente?"
+      },
+      {
+        "Dificultad": 1,
+        "Correcta": 0,
+        "Respuestas": {
+          "D": "Seis",
+          "C": "Cuatro",
+          "B": "Tres",
+          "A": "Cinco"
+        },
+        "Pregunta": "¿Con cuántos países limita Argentina?"
+      },
+      {
+        "Pregunta": "¿Cuál es la capital de Suiza?",
+        "Respuestas": {
+          "A": "Zurich",
+          "B": "Berna",
+          "C": "Ginebra",
+          "D": "Basilea"
+        },
+        "Correcta": 1,
+        "Dificultad": 3
+      },
+      {
+        "Pregunta": "¿Cuantos colores tiene un arcoiris?",
+        "Respuestas": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "Correcta": 2,
+        "Dificultad": 0
+      },
+      {
+        "Pregunta": "¿Cuántas patas tiene una araña?",
+        "Respuestas": {
+          "A": "4",
+          "B": "6",
+          "C": "8",
+          "D": "7"
+        },
+        "Correcta": 2,
+        "Dificultad": 0
+      },
+      {
+        "Pregunta": "¿Qué planeta es el más cercano al Sol?",
+        "Respuestas": {
+          "A": "Mercurio",
+          "B": "Marte",
+          "C": "Venus",
+          "D": "Jupiter"
+        },
+        "Correcta": 0,
+        "Dificultad": 0
+      },
+      {
+        "Pregunta": "¿En qué país se encuentra la Torre Eiffel?",
+        "Respuestas": {
+          "A": "España",
+          "B": "Francia",
+          "C": "Inglaterra",
+          "D": "Polonia"
+        },
+        "Correcta": 1,
+        "Dificultad": 0
+      },
+      {
+        "Pregunta": " En música, ¿A cuántos tiempos equivale una blanca?",
+        "Respuestas": {
+          "A": "medio tiempo",
+          "B": "un tiempo",
+          "C": "dos tiempos",
+          "D": "4 tiempos"
+        },
+        "Correcta": 2,
+        "Dificultad": 0
+      },
+      {
+        "Pregunta": "¿Cuál es el país con mayor población del mundo?",
+        "Respuestas": {
+          "A": "Estados Unidos",
+          "B": "Rusia",
+          "C": "China",
+          "D": "Japon"
+        },
+        "Correcta": 2,
+        "Dificultad": 0
+      },
+      {
+        "Pregunta": "¿Cuántas sílabas tiene la palabra abecedario?",
+        "Respuestas": {
+          "A": "1",
+          "B": "3",
+          "C": "5",
+          "D": "10"
+        },
+        "Correcta": 2,
+        "Dificultad": 0
+      },
+      {
+        "Pregunta": "¿Cuánto suman los ángulos de un triángulo?",
+        "Respuestas": {
+          "A": "45°",
+          "B": "90°",
+          "C": "180°",
+          "D": "360°"
+        },
+        "Correcta": 2,
+        "Dificultad": 0
+      }
+    ]
+  }
